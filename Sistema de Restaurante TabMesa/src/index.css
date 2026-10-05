@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Nunito', system-ui, sans-serif;
+  --color-bg: #F5F2EE;
+  --color-surface: #FFFFFF;
+  --color-primary: #8B7FC7;
+  --color-primary-dark: #7368B5;
+  --color-secondary: #7E9478;
+  --color-secondary-dark: #6A7E64;
+  --color-warning: #C8933A;
+  --color-success: #5BA85A;
+  --color-danger: #DC5F5F;
+  --color-text: #3D3830;
+  --color-muted: #9C9490;
+  --color-border: #E8E4DE;
+  --color-hover: #F0EDE8;
+}
+
+* { font-family: 'Nunito', system-ui, sans-serif; box-sizing: border-box; }
+
+body {
+  background-color: #F5F2EE;
+  color: #3D3830;
+  font-family: 'Nunito', system-ui, sans-serif;
+}
+
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #D4CFC9; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #B8B2AC; }
